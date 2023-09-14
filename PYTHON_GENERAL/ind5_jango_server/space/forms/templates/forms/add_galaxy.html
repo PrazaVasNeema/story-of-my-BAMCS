@@ -1,0 +1,10 @@
+{% extends "forms/base.html" %}
+{% block title %} Добавить галактику {% endblock %}
+{% block content %}
+    <h1>Добавить галактику</h1>
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form.as_ul }}
+        <button type="submit">Добавить</button>
+    </form>
+{% endblock %}

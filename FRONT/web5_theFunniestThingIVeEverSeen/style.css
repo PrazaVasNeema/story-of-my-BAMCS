@@ -1,0 +1,62 @@
+body {
+    background-image: url('stars-backgrounds.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+header {
+    background-color: grey;
+    width:80%;
+    border: 2px solid black;
+    height: 130px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+.header-image {
+    margin-top:-35px;
+    height:230px;
+    width:auto;
+    float: left;
+}
+header>p {
+    color:rgb(209, 201, 201); 
+    font-size:80px;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top:40px;
+    -webkit-text-stroke: 1px black;
+}
+main {
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+}
+form {
+    background-color:grey;
+    justify-content: center;
+    text-align:center;
+}
+select {
+    width: 150px;
+    margin: 10px;
+}
+select:focus {
+    min-width: 150px;
+    width: auto;
+}
+.content-image {
+    background-color: grey;
+    padding: 40px;
+    margin-left:10px;
+}
+.rickroll {
+    animation: shake 1.2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0% { transform:  rotate(-4deg); }
+
+    50% { transform:  rotate(4deg); }
+
+    100% { transform:  rotate(-4deg); }
+  }

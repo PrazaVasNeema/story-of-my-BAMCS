@@ -1,0 +1,14 @@
+{% extends "forms/base.html" %}
+{% block title %} Система {{ system.name }} {% endblock %}
+{% block content %}
+<h1>
+    {{ system.name }}<br>
+    Расстояние до центра галактики - {{ system.proximity_to_center }}<br>
+</h1>
+<h1>Изменить систему</h1>
+<form method="post" action="">
+    {% csrf_token %}
+    {{ form.as_ul }}
+    <button type="submit">Изменить</button>
+</form>
+{% endblock %}

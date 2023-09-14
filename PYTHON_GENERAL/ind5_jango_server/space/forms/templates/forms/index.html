@@ -1,0 +1,69 @@
+{% extends "forms/base.html" %}
+{% block title %} space {% endblock %}
+{% block content %}
+    <h1>Планеты</h1>
+    <table class="table">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Радиус</th>
+            <th>Система</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for planet in planets %}
+        <tr>
+            <td>{{ planet.name }}</td>
+            <td>{{ planet.radius }}</td>
+            <td>{{ planet.system }}</td>
+            <td><a href="/planet/{{planet.id}}">Посмотреть страницу планеты</a></td>
+        </tr>
+    {% endfor %}
+        </tbody>
+        <br>
+    </table>
+    <a href="{% url 'add_planet' %}">Добавить планету</a>
+    <h1>Системы</h1>
+    <table class="table">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Расстояние до центра галактики</th>
+            <th>Галактика</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for system in systems %}
+        <tr>
+            <td>{{ system.name }}</td>
+            <td>{{ system.proximity_to_center }}</td>
+            <td>{{ system.galaxy }}</td>
+            <td><a href="/system/{{system.id}}">Посмотреть страницу системы</a></td>
+        </tr>
+    {% endfor %}
+        </tbody>
+        <br>
+    </table>
+    <a href="{% url 'add_system' %}">Добавить систему</a>
+    <h1>Галактики</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Расстояние до Млечного Пути</th>
+                <th>Радиус</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for galaxy in galaxies %}
+                <tr>
+                    <td>{{ galaxy.name }}</td>
+                    <td>{{ galaxy.proximity_to_mw }}</td>
+                    <td>{{ galaxy.radius }}</td>
+                </tr>
+            {% endfor %}
+                <br>
+        </tbody>
+    </table>
+    <a href="{% url 'add_galaxy' %}">Добавить галактику</a>
+{% endblock %}
