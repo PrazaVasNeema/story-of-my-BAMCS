@@ -1,0 +1,391 @@
+Model {
+  Name			  "EX_Gain_1mdl"
+  Version		  4.00
+  SampleTimeColors	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowStorageClass	  off
+  ExecutionOrder	  off
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  Created		  "Wed Jan 09 14:48:52 2002"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Администратор"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Sat Jun 22 11:42:09 2002"
+  ModelVersionFormat	  "1.%<AutoIncrement:28>"
+  ConfigurationManager	  "None"
+  SimParamPage		  "Solver"
+  StartTime		  "0.0"
+  StopTime		  "10.0"
+  SolverMode		  "Auto"
+  Solver		  "ode45"
+  RelTol		  "1e-3"
+  AbsTol		  "auto"
+  Refine		  "1"
+  MaxStep		  "auto"
+  MinStep		  "auto"
+  MaxNumMinSteps	  "-1"
+  InitialStep		  "auto"
+  FixedStep		  "auto"
+  MaxOrder		  5
+  OutputOption		  "RefineOutputTimes"
+  OutputTimes		  "[]"
+  LoadExternalInput	  off
+  ExternalInput		  "[t, u]"
+  SaveTime		  on
+  TimeSaveName		  "tout"
+  SaveState		  off
+  StateSaveName		  "xout"
+  SaveOutput		  on
+  OutputSaveName	  "yout"
+  LoadInitialState	  off
+  InitialState		  "xInitial"
+  SaveFinalState	  off
+  FinalStateName	  "xFinal"
+  SaveFormat		  "Array"
+  LimitDataPoints	  on
+  MaxDataPoints		  "1000"
+  Decimation		  "1"
+  AlgebraicLoopMsg	  "warning"
+  MinStepSizeMsg	  "warning"
+  UnconnectedInputMsg	  "warning"
+  UnconnectedOutputMsg	  "warning"
+  UnconnectedLineMsg	  "warning"
+  InheritedTsInSrcMsg	  "warning"
+  SingleTaskRateTransMsg  "none"
+  MultiTaskRateTransMsg	  "error"
+  IntegerOverflowMsg	  "warning"
+  CheckForMatrixSingularity "none"
+  UnnecessaryDatatypeConvMsg "none"
+  Int32ToFloatConvMsg	  "warning"
+  InvalidFcnCallConnMsg	  "error"
+  SignalLabelMismatchMsg  "none"
+  LinearizationMsg	  "none"
+  VectorMatrixConversionMsg "none"
+  SfunCompatibilityCheckMsg "none"
+  BlockPriorityViolationMsg "warning"
+  ArrayBoundsChecking	  "none"
+  ConsistencyChecking	  "none"
+  ZeroCross		  on
+  Profile		  off
+  SimulationMode	  "normal"
+  RTWSystemTargetFile	  "grt.tlc"
+  RTWInlineParameters	  off
+  RTWRetainRTWFile	  off
+  RTWTemplateMakefile	  "grt_default_tmf"
+  RTWMakeCommand	  "make_rtw"
+  RTWGenerateCodeOnly	  off
+  TLCProfiler		  off
+  TLCDebug		  off
+  TLCCoverage		  off
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  ExtModeMexFile	  "ext_comm"
+  ExtModeBatchMode	  off
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  OptimizeBlockIOStorage  on
+  BufferReuse		  on
+  ParameterPooling	  on
+  BlockReductionOpt	  on
+  RTWExpressionDepthLimit 5
+  BooleanDataType	  off
+  BlockDefaults {
+    Orientation		    "right"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  System {
+    Name		    "EX_Gain_1mdl"
+    Location		    [36, 73, 787, 519]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "automatic"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    Block {
+      BlockType		      Constant
+      Name		      "Constant"
+      Position		      [25, 40, 55, 70]
+      Value		      "3.14"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant1"
+      Position		      [15, 140, 95, 170]
+      Value		      "[-0.5 1 1.5]"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant2"
+      Position		      [15, 265, 130, 295]
+      Value		      "[-0.5+1i 1;1.5 -3.7-2i]"
+      VectorParams1D	      off
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant3"
+      Position		      [265, 25, 345, 55]
+      Value		      "[-0.5 1;1.5 -3.7]"
+      VectorParams1D	      off
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant4"
+      Position		      [285, 101, 345, 129]
+      Value		      "-2.5+3.5i"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant5"
+      Position		      [300, 175, 340, 205]
+      Value		      "2.5"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display"
+      Ports		      [1]
+      Position		      [140, 40, 230, 70]
+      Format		      "short"
+      Decimation	      "1"
+      Floating		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display1"
+      Ports		      [1]
+      Position		      [175, 122, 265, 188]
+      Format		      "short"
+      Decimation	      "1"
+      Floating		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display2"
+      Ports		      [1]
+      Position		      [415, 13, 580, 67]
+      Format		      "short"
+      Decimation	      "1"
+      Floating		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display3"
+      Ports		      [1]
+      Position		      [435, 97, 580, 133]
+      Format		      "short"
+      Decimation	      "1"
+      Floating		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display4"
+      Ports		      [1]
+      Position		      [435, 172, 580, 208]
+      Format		      "short"
+      Decimation	      "1"
+      Floating		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display5"
+      Ports		      [1]
+      Position		      [300, 251, 585, 309]
+      Format		      "short"
+      Decimation	      "1"
+      Floating		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain"
+      Position		      [80, 35, 115, 75]
+      Gain		      "2"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain1"
+      Position		      [120, 135, 155, 175]
+      Gain		      "2.5"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain2"
+      Position		      [360, 20, 400, 60]
+      Gain		      "-0.3"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain3"
+      Position		      [375, 95, 410, 135]
+      Gain		      "2"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain4"
+      Position		      [370, 169, 415, 211]
+      Gain		      "2+3i"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain5"
+      Position		      [155, 243, 280, 317]
+      Gain		      "[3+2i 1-1i;2 3]"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Line {
+      SrcBlock		      "Constant"
+      SrcPort		      1
+      DstBlock		      "Gain"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Gain"
+      SrcPort		      1
+      DstBlock		      "Display"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Gain1"
+      SrcPort		      1
+      DstBlock		      "Display1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Constant1"
+      SrcPort		      1
+      DstBlock		      "Gain1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Constant3"
+      SrcPort		      1
+      DstBlock		      "Gain2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Gain2"
+      SrcPort		      1
+      DstBlock		      "Display2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Constant4"
+      SrcPort		      1
+      DstBlock		      "Gain3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Gain3"
+      SrcPort		      1
+      DstBlock		      "Display3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Constant5"
+      SrcPort		      1
+      DstBlock		      "Gain4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Gain4"
+      SrcPort		      1
+      DstBlock		      "Display4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Constant2"
+      SrcPort		      1
+      DstBlock		      "Gain5"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Gain5"
+      SrcPort		      1
+      DstBlock		      "Display5"
+      DstPort		      1
+    }
+  }
+}

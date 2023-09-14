@@ -8,6 +8,7 @@ Includes:
 - ..Spiced Up with Back-end (PHP)
 - Dozens of Python
 - A Bit of Java
+- Just a smidge of Prolog and Protege
 - A Touch of Neural Networks
 - A a Hint of Assembler for That Extra Flavor
 - And, of course, Some Math-Related Stuff (MATLAB, Maple, COMSOL)

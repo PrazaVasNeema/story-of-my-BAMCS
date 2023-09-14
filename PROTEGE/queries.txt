@@ -1,0 +1,50 @@
+PREFIX ontology: <http://www.semanticweb.org/acer/ontologies/2022/11/untitled-ontology-14#>
+
++ показать дату и затраченные часы только двух операий
+
+SELECT ?operations ?date ?hours
+WHERE {
+?operations ontology:Дата ?date.
+?operations ontology:Затраченные_часы ?hours.
+}
+LIMIT 2
+
++ Отсортировать операии по дате ( по возрастанию), дополнительно увидеть затраченные часы
+
+SELECT ?operations ?date ?hours
+WHERE {
+?operations ontology:Дата ?date.
+?operations ontology:Затраченные_часы ?hours.
+}
+
+ORDER BY ASC(?date)
+
++ показать дату рождения и адрес паиентов, пропустив первого
+
+SELECT ?patient ?birth ?adress
+WHERE {
+?patient ontology:Дата_рождения ?birth.
+?patient ontology:Адрес ?adress.
+}
+
+OFFSET 1
+
++ показать дату проведения оплаты пациентов, которые заплатили больше 10 тысяч
+
+SELECT ?oplata ?date ?sum
+WHERE {
+?oplata ontology:Дата ?date.
+?oplata ontology:Стоимость ?sum.FILTER(?sum>10000)
+}
+
++ показать ОДНУ справку, которая была вручена человеку с диагнозом НЕ ЗДОРОВ, отсортировав по
+дате, пропустив первую
+
+SELECT ?spravka ?date ?diagnoz
+WHERE {
+?spravka ontology:Дата ?date.
+?spravka ontology:Диагноз ?diagnoz.FILTER(?diagnoz!="Здоров")
+}
+ORDER BY ASC(?date)
+LIMIT 1
+OFFSET 1

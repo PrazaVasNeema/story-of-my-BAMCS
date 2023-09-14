@@ -1,0 +1,73 @@
+with (Maplets[Elements]):
+maplet := 
+Maplet('onstartup'='Action1','reference'='Maplet1',
+	Plotter('background'="#FFFFFF",'continuous'='true','delay'='100','height'='220','reference'='Plotter1','visible'='true','width'='220'),
+	Label('background'="#D6D3CE",'caption'="enter function",'enabled'='true','foreground'="#000000",'reference'='Label4','visible'='true'),
+	TextField('background'="#FFFFFF",'editable'='true','enabled'='true','foreground'="#000000",'halign'='left','reference'='TextField1','visible'='true','width'='20'),
+	Label('background'="#D6D3CE",'caption'="enter interval",'enabled'='true','foreground'="#000000",'reference'='Label5','visible'='true'),
+	TextField('background'="#FFFFFF",'editable'='true','enabled'='true','foreground'="#000000",'halign'='left','reference'='TextField2','visible'='true','width'='20'),
+	Action('reference'='clickButton2',
+		Evaluate('function'='plot(TextField1,x = TextField2)',`option`="value",'target'='Plotter1','waitforresult'='true')),
+	Button('background'="#D6D3CE",'caption'="plot",'enabled'='true','foreground'="#000000",'onclick'='clickButton2','reference'='Button2','visible'='true'),
+	Label('background'="#D6D3CE",'caption'="more",'enabled'='true','foreground'="#000000",'reference'='Label6','visible'='true'),
+	Action('reference'='clickButton3',
+		Evaluate('function'='plot([diff(TextField1,x), int(TextField1,x), minimize(TextField1,x), maximize(TextField1,x)],x = TextField2,color = [blue, red, brown, green])',`option`="value",'target'='Plotter1','waitforresult'='true')),
+	Button('background'="#D6D3CE",'caption'="plot diff,int,min,max",'enabled'='true','foreground'="#000000",'onclick'='clickButton3','reference'='Button3','visible'='true'),
+	Action('reference'='clickButton12',
+		Evaluate('function'='diff(TextField1,x)',`option`="value",'target'='MathMLViewer1','waitforresult'='true')),
+	Button('background'="#D6D3CE",'caption'="diff",'enabled'='true','foreground'="#000000",'onclick'='clickButton12','reference'='Button12','visible'='true'),
+	Action('reference'='clickButton13',
+		Evaluate('function'='int(TextField1,x)',`option`="value",'target'='MathMLViewer1','waitforresult'='true')),
+	Button('background'="#D6D3CE",'caption'="int",'enabled'='true','foreground'="#000000",'onclick'='clickButton13','reference'='Button13','visible'='true'),
+	Action('reference'='clickButton14',
+		Evaluate('function'=' minimize(TextField1,x)',`option`="value",'target'='MathMLViewer1','waitforresult'='true')),
+	Button('background'="#D6D3CE",'caption'="min",'enabled'='true','foreground'="#000000",'onclick'='clickButton14','reference'='Button14','visible'='true'),
+	Action('reference'='clickButton10',
+		Evaluate('function'='maximize(TextField1,x)',`option`="value",'target'='MathMLViewer1','waitforresult'='true')),
+	Button('background'="#D6D3CE",'caption'="max",'enabled'='true','foreground'="#000000",'onclick'='clickButton10','reference'='Button10','visible'='true'),
+	BoxLayout('background'="#D6D3CE",'border'='false','halign'='center','inset'='5','reference'='BoxLayout2','valign'='center','vertical'='false','visible'='true',
+		BoxColumn(
+			BoxCell('hscroll'='never','value'='Button3','vscroll'='never'),
+			BoxCell('hscroll'='never','value'='Button12','vscroll'='never'),
+			BoxCell('hscroll'='never','value'='Button13','vscroll'='never'),
+			BoxCell('hscroll'='never','value'='Button14','vscroll'='never'),
+			BoxCell('hscroll'='never','value'='Button10','vscroll'='never'))),
+	MathMLViewer('background'="#FFFFFF",'fontsize'='18','foreground'="#000000",'height'='100','reference'='MathMLViewer1','width'='300'),
+	Action('reference'='clickButton15',
+		RunDialog('dialog'='QuestionDialog1')),
+	Button('background'="#D6D3CE",'caption'="other",'enabled'='true','foreground'="#000000",'onclick'='clickButton15','reference'='Button15','visible'='true'),
+	BoxLayout('background'="#D6D3CE",'border'='false','halign'='center','inset'='5','reference'='BoxLayout1','valign'='center','vertical'='false','visible'='true',
+		BoxColumn(
+			BoxRow(
+				BoxCell('hscroll'='never','value'='Plotter1','vscroll'='never')),
+			BoxRow(
+				BoxRow(
+					BoxCell('hscroll'='never','value'='Label4','vscroll'='never')),
+				BoxRow(
+					BoxCell('hscroll'='never','value'='TextField1','vscroll'='never')),
+				BoxRow(
+					BoxCell('hscroll'='never','value'='Label5','vscroll'='never')),
+				BoxRow(
+					BoxCell('hscroll'='never','value'='TextField2','vscroll'='never')),
+				BoxRow(
+					BoxCell('hscroll'='never','value'='Button2','vscroll'='never'))),
+			BoxRow(
+				BoxRow(
+					BoxRow(
+						BoxCell('hscroll'='never','value'='Label6','vscroll'='never')),
+					BoxRow(
+						BoxCell('hscroll'='never','value'='BoxLayout2','vscroll'='never'))),
+				BoxRow(
+					BoxCell('hscroll'='never','value'='MathMLViewer1','vscroll'='never')),
+				BoxRow(
+					BoxCell('hscroll'='never','value'='Button15','vscroll'='never'))))),
+	Window('layout'='BoxLayout1','reference'='Window1','resizable'='true','title'="Maplet"),
+	Action('reference'='Action1',
+		RunWindow('window'='Window1')),
+	QuestionDialog('caption'="creator: Gleb Bushelenkov",'height'='115','onapprove'='approveQuestionDialog1','ondecline'='declineQuestionDialog1','reference'='QuestionDialog1','resizable'='false','title'="Question",'width'='268',
+		Action('reference'='approveQuestionDialog1',
+			Shutdown('value'="true")),
+		Action('reference'='declineQuestionDialog1',
+			Shutdown('value'="false")))):
+
+Maplets[Display](maplet);

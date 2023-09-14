@@ -1,0 +1,20 @@
+Задание 1
+fGR = figure;
+gGR = figure;
+x = [0.01:0.05:2*pi];
+f = sin(x)./x;
+g = exp(-x).*cos(x);
+figure(fGR)
+plot(x, f)
+title('f(x) = sin(x)/x')
+grid on
+figure(x, g)
+plot(x, g, 'r')
+title('g(x) = exp(-x)*cos(x)')
+grid on
+
+fgOneWindowOneAxesGr = figure;
+plot(x, f, 'b.', x, g, 'r--')
+title('Одна ось')
+grid on
+legend('f(x)','g(x)')

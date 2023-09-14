@@ -1,0 +1,1004 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/acer/ontologies/2022/11/untitled-ontology-14"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/acer/ontologies/2022/11/untitled-ontology-14">
+    <Prefix name="" IRI="http://www.semanticweb.org/acer/ontologies/2022/11/untitled-ontology-14"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Врачи"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Карта1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Относится"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Пациенты"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Грибов_Влад_Константинович"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Провел"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Лежит"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Тюльпанова_Лилия_Александровна"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Справка1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Выдал"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Диагноз"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Палата2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Лаврентьев_Толик_Михайлович"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Количество_мест"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Количество_палат"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ЧЛХ"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Подтвердил"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Карта2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Стоит_за"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Операции"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Оплата1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Номер_корпуса"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Больницы"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Лечение_кариеса"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Количество_успешных_операций"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Совершил"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Палата1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Карта3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Справки"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Дата"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Удаление_4-х_восьмых_зубов"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Звание"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Больница1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Хранится"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Вправка_челюсти"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Палаты"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Мед_карты"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Затраченные_часы"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Оплата2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Получил"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Содержит"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Справка3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Стоимость"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Отделения"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Работает"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Срок_лечения"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Оплата"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Стоматологическое_отделение"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Оплата3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Адрес"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Больница2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Дата_рождения"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Количество_корпусов"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Заполнил"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Справка2"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Больницы"/>
+        <NamedIndividual IRI="#Больница1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Больницы"/>
+        <NamedIndividual IRI="#Больница2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Операции"/>
+        <NamedIndividual IRI="#Вправка_челюсти"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Врачи"/>
+        <NamedIndividual IRI="#Грибов_Влад_Константинович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Мед_карты"/>
+        <NamedIndividual IRI="#Карта1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Мед_карты"/>
+        <NamedIndividual IRI="#Карта2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Мед_карты"/>
+        <NamedIndividual IRI="#Карта3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Пациенты"/>
+        <NamedIndividual IRI="#Лаврентьев_Толик_Михайлович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Операции"/>
+        <NamedIndividual IRI="#Лечение_кариеса"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Врачи"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оплата"/>
+        <NamedIndividual IRI="#Оплата1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оплата"/>
+        <NamedIndividual IRI="#Оплата2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оплата"/>
+        <NamedIndividual IRI="#Оплата3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Палаты"/>
+        <NamedIndividual IRI="#Палата1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Палаты"/>
+        <NamedIndividual IRI="#Палата2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Справки"/>
+        <NamedIndividual IRI="#Справка1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Справки"/>
+        <NamedIndividual IRI="#Справка2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Справки"/>
+        <NamedIndividual IRI="#Справка3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Отделения"/>
+        <NamedIndividual IRI="#Стоматологическое_отделение"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Пациенты"/>
+        <NamedIndividual IRI="#Тюльпанова_Лилия_Александровна"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Операции"/>
+        <NamedIndividual IRI="#Удаление_4-х_восьмых_зубов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Отделения"/>
+        <NamedIndividual IRI="#ЧЛХ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Пациенты"/>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Содержит"/>
+        <NamedIndividual IRI="#Больница1"/>
+        <NamedIndividual IRI="#Стоматологическое_отделение"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Содержит"/>
+        <NamedIndividual IRI="#Больница1"/>
+        <NamedIndividual IRI="#ЧЛХ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Выдал"/>
+        <NamedIndividual IRI="#Грибов_Влад_Константинович"/>
+        <NamedIndividual IRI="#Справка2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Заполнил"/>
+        <NamedIndividual IRI="#Грибов_Влад_Константинович"/>
+        <NamedIndividual IRI="#Карта2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Подтвердил"/>
+        <NamedIndividual IRI="#Грибов_Влад_Константинович"/>
+        <NamedIndividual IRI="#Оплата2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Провел"/>
+        <NamedIndividual IRI="#Грибов_Влад_Константинович"/>
+        <NamedIndividual IRI="#Лечение_кариеса"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Работает"/>
+        <NamedIndividual IRI="#Грибов_Влад_Константинович"/>
+        <NamedIndividual IRI="#Больница1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Хранится"/>
+        <NamedIndividual IRI="#Карта1"/>
+        <NamedIndividual IRI="#Больница1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Хранится"/>
+        <NamedIndividual IRI="#Карта2"/>
+        <NamedIndividual IRI="#Больница1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Хранится"/>
+        <NamedIndividual IRI="#Карта3"/>
+        <NamedIndividual IRI="#Больница1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Лежит"/>
+        <NamedIndividual IRI="#Лаврентьев_Толик_Михайлович"/>
+        <NamedIndividual IRI="#Палата2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Получил"/>
+        <NamedIndividual IRI="#Лаврентьев_Толик_Михайлович"/>
+        <NamedIndividual IRI="#Вправка_челюсти"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Получил"/>
+        <NamedIndividual IRI="#Лаврентьев_Толик_Михайлович"/>
+        <NamedIndividual IRI="#Справка1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Совершил"/>
+        <NamedIndividual IRI="#Лаврентьев_Толик_Михайлович"/>
+        <NamedIndividual IRI="#Оплата1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стоит_за"/>
+        <NamedIndividual IRI="#Лаврентьев_Толик_Михайлович"/>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Выдал"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <NamedIndividual IRI="#Справка1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Выдал"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <NamedIndividual IRI="#Справка3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Заполнил"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <NamedIndividual IRI="#Карта1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Заполнил"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <NamedIndividual IRI="#Карта3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Подтвердил"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <NamedIndividual IRI="#Оплата1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Подтвердил"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <NamedIndividual IRI="#Оплата3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Провел"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <NamedIndividual IRI="#Вправка_челюсти"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Провел"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <NamedIndividual IRI="#Удаление_4-х_восьмых_зубов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Работает"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <NamedIndividual IRI="#Больница1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Относится"/>
+        <NamedIndividual IRI="#Палата1"/>
+        <NamedIndividual IRI="#Стоматологическое_отделение"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Относится"/>
+        <NamedIndividual IRI="#Палата2"/>
+        <NamedIndividual IRI="#ЧЛХ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Лежит"/>
+        <NamedIndividual IRI="#Тюльпанова_Лилия_Александровна"/>
+        <NamedIndividual IRI="#Палата1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Получил"/>
+        <NamedIndividual IRI="#Тюльпанова_Лилия_Александровна"/>
+        <NamedIndividual IRI="#Лечение_кариеса"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Получил"/>
+        <NamedIndividual IRI="#Тюльпанова_Лилия_Александровна"/>
+        <NamedIndividual IRI="#Справка2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Совершил"/>
+        <NamedIndividual IRI="#Тюльпанова_Лилия_Александровна"/>
+        <NamedIndividual IRI="#Оплата2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Лежит"/>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+        <NamedIndividual IRI="#Палата2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Получил"/>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+        <NamedIndividual IRI="#Справка3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Получил"/>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+        <NamedIndividual IRI="#Удаление_4-х_восьмых_зубов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Совершил"/>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+        <NamedIndividual IRI="#Оплата3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стоит_за"/>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+        <NamedIndividual IRI="#Тюльпанова_Лилия_Александровна"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Больница1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">город Москва, ул. Белая</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Количество_корпусов"/>
+        <NamedIndividual IRI="#Больница1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Больница2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">город Москва, ул. Зеленая</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Количество_корпусов"/>
+        <NamedIndividual IRI="#Больница2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Вправка_челюсти"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">10 декарбя 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Затраченные_часы"/>
+        <NamedIndividual IRI="#Вправка_челюсти"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Звание"/>
+        <NamedIndividual IRI="#Грибов_Влад_Константинович"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Стоматолог</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Количество_успешных_операций"/>
+        <NamedIndividual IRI="#Грибов_Влад_Константинович"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">78</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Карта1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">9 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Срок_лечения"/>
+        <NamedIndividual IRI="#Карта1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Карта2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">20 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Срок_лечения"/>
+        <NamedIndividual IRI="#Карта2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Карта3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">24 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Срок_лечения"/>
+        <NamedIndividual IRI="#Карта3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Лаврентьев_Толик_Михайлович"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">город Москва, ул. Тюляева</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата_рождения"/>
+        <NamedIndividual IRI="#Лаврентьев_Толик_Михайлович"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">12 ноября 1980</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Лечение_кариеса"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">20 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Затраченные_часы"/>
+        <NamedIndividual IRI="#Лечение_кариеса"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Звание"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Челюстно-лицевой хирург</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Количество_успешных_операций"/>
+        <NamedIndividual IRI="#Онегин_Владимир_Александрович"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Оплата1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">15 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стоимость"/>
+        <NamedIndividual IRI="#Оплата1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Оплата2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">20 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стоимость"/>
+        <NamedIndividual IRI="#Оплата2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Оплата3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">24 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стоимость"/>
+        <NamedIndividual IRI="#Оплата3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Количество_мест"/>
+        <NamedIndividual IRI="#Палата1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Количество_мест"/>
+        <NamedIndividual IRI="#Палата2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Справка1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">22 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Диагноз"/>
+        <NamedIndividual IRI="#Справка1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Вправлена челюсть путем хирургического вмешательства</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Справка2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">20 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Диагноз"/>
+        <NamedIndividual IRI="#Справка2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Здоров</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Справка3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">3 января 2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Диагноз"/>
+        <NamedIndividual IRI="#Справка3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Удалены четыре восьмых зуба</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Количество_палат"/>
+        <NamedIndividual IRI="#Стоматологическое_отделение"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Номер_корпуса"/>
+        <NamedIndividual IRI="#Стоматологическое_отделение"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Тюльпанова_Лилия_Александровна"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">город Москва, ул. 50 лет Октября</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата_рождения"/>
+        <NamedIndividual IRI="#Тюльпанова_Лилия_Александровна"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">5 июня 1978</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата"/>
+        <NamedIndividual IRI="#Удаление_4-х_восьмых_зубов"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">25 декабря 2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Затраченные_часы"/>
+        <NamedIndividual IRI="#Удаление_4-х_восьмых_зубов"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Количество_палат"/>
+        <NamedIndividual IRI="#ЧЛХ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Номер_корпуса"/>
+        <NamedIndividual IRI="#ЧЛХ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">город Краснодар, ул. Московская</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата_рождения"/>
+        <NamedIndividual IRI="#Шушкин_Артём_Александрович"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">8 августа 1972</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Стоит_за"/>
+        <ObjectProperty IRI="#Стоит_за"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Выдал"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Заполнил"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Лежит"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Относится"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Подтвердил"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Получил"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Провел"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Работает"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Совершил"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Содержит"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Хранится"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Выдал"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Заполнил"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Лежит"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Относится"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Подтвердил"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Получил"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Провел"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Работает"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Совершил"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Содержит"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Хранится"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Стоит_за"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Выдал"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Заполнил"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Лежит"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Относится"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Подтвердил"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Получил"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Провел"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Работает"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Совершил"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Содержит"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Хранится"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Выдал"/>
+        <Class IRI="#Врачи"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Заполнил"/>
+        <Class IRI="#Врачи"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Лежит"/>
+        <Class IRI="#Пациенты"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Относится"/>
+        <Class IRI="#Палаты"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Подтвердил"/>
+        <Class IRI="#Врачи"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Получил"/>
+        <Class IRI="#Пациенты"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Провел"/>
+        <Class IRI="#Врачи"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Работает"/>
+        <Class IRI="#Врачи"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Совершил"/>
+        <Class IRI="#Пациенты"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Содержит"/>
+        <Class IRI="#Больницы"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Стоит_за"/>
+        <Class IRI="#Пациенты"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Хранится"/>
+        <Class IRI="#Мед_карты"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Выдал"/>
+        <Class IRI="#Справки"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Заполнил"/>
+        <Class IRI="#Мед_карты"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Лежит"/>
+        <Class IRI="#Палаты"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Относится"/>
+        <Class IRI="#Отделения"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Подтвердил"/>
+        <Class IRI="#Оплата"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Получил"/>
+        <Class IRI="#Операции"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Получил"/>
+        <Class IRI="#Справки"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Провел"/>
+        <Class IRI="#Операции"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Работает"/>
+        <Class IRI="#Больницы"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Совершил"/>
+        <Class IRI="#Оплата"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Содержит"/>
+        <Class IRI="#Отделения"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Стоит_за"/>
+        <Class IRI="#Пациенты"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Хранится"/>
+        <Class IRI="#Больницы"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Адрес"/>
+        <Class IRI="#Больницы"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Адрес"/>
+        <Class IRI="#Пациенты"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Дата"/>
+        <Class IRI="#Мед_карты"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Дата"/>
+        <Class IRI="#Операции"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Дата"/>
+        <Class IRI="#Оплата"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Дата"/>
+        <Class IRI="#Справки"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Дата_рождения"/>
+        <Class IRI="#Пациенты"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Диагноз"/>
+        <Class IRI="#Справки"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Затраченные_часы"/>
+        <Class IRI="#Операции"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Звание"/>
+        <Class IRI="#Врачи"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Количество_корпусов"/>
+        <Class IRI="#Больницы"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Количество_мест"/>
+        <Class IRI="#Палаты"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Количество_палат"/>
+        <Class IRI="#Отделения"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Количество_успешных_операций"/>
+        <Class IRI="#Врачи"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Номер_корпуса"/>
+        <Class IRI="#Отделения"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Срок_лечения"/>
+        <Class IRI="#Мед_карты"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Стоимость"/>
+        <Class IRI="#Оплата"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Адрес"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Дата"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Дата_рождения"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Диагноз"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Затраченные_часы"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Звание"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Количество_корпусов"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Количество_мест"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Количество_палат"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Количество_успешных_операций"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Номер_корпуса"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Срок_лечения"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Стоимость"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
