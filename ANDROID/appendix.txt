@@ -1,0 +1,2 @@
+pixelator_mk3 - a simple calculator
+appZoo - learning project with implementation some basic Kotlin features, primary aiming to learn about working with data
